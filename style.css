@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin: 50px 0 0 50px;
+}
+
+.nav-item {
+  display: block;
+  padding: 8px 16px;
+  width: 200px;
+  color: black;
+  border: 3px solid #ccc;
+  border-bottom: none;
+}
+.nav-item:first-child {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.nav-item:last-child {
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom: 3px solid #ccc;
+}
+.nav-item:hover {
+  background-color: #ccc;
+}
+
+/*# sourceMappingURL=style.css.map */
